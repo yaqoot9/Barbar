@@ -1,0 +1,411 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{margin: 0;
+padding: 0;}
+img{max-width: 100%;}
+
+ul {list-style: none;}
+a{text-decoration: none;}
+
+.navbar{overflow: hidden;
+    height: 67px;
+padding-left:12em;
+}
+.navbar .nav-left{float: left;
+width: 50%;}
+.navbar .nav-left img{height: 64px;}
+.navbar .nav-right{float: right;
+width: 50%;}
+.navbar .nav-right .item{display:inline-block;}
+.nav-right li a {color: white;
+font-size: 19px;
+padding: .6em;
+font-family: 'Lora', serif;
+line-height:3em;}
+
+.nav-right .item1 a{color:#e0c690;}
+.navbar .nav-right li a:hover{color:#e0c690;}
+.menue{display: none;}
+
+.header{background-image: url('../img/barber-15.jpg');
+    padding-top: .88em;
+height: 100vh;
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+
+.overlay{
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background-color: rgba(0,0,0, .45);
+}
+
+
+.topbtn{position: fixed;
+    background-color: #969696;
+right: 10px;
+bottom: 5px;
+border: 1px solid white;
+border-radius: 50%;
+padding: 10px;}
+.topbtn a{color: white;}
+
+
+.side{
+    position: fixed;
+    right: 0;
+    bottom: 520px;
+width: 40px;
+height: 80px;
+background-color: white;
+border-radius: 5%;
+
+}
+.side i {padding: 4px;
+    display: inline-block;
+    color: #666;
+font-size: 22px;
+line-height: 30px;}
+
+.side i:hover{color:blue;}
+
+
+  
+.cover h1{font-family: "Lora";
+    padding-left: 2.3em;
+    padding-top: 1.6em;
+    width: 40%;
+    font-weight:lighter;
+font-size:85px;
+color: #fff;
+line-height: 1em;
+text-align: left;
+}
+
+
+.cover p{font-family: 'Open Sans', sans-serif;
+line-height: 2em;
+padding-top: 1.5em;
+color: #fff;
+width: 29%;
+padding-left: 9em;
+font-size:22px;}
+
+.cover a{    background-color: #ae9768;
+    font-family: 'Open Sans', sans-serif;
+padding: 18px;
+padding-right:30px;
+padding-left: 30px;
+border: none;
+border-radius: 5%;
+color: white;
+font-size:15px;
+font-weight: bold;
+vertical-align: middle;}
+
+
+.btn{margin-top: 40px; 
+    margin-left: 25px;
+}
+
+.btn1{margin-left:11em;
+margin-right: .8em;
+}
+
+.cover a:hover{background-color: #fff;
+color: black;}
+
+
+.about{overflow: hidden;
+margin-top: 80px;
+margin-left:200px;
+margin-right:140px;
+height: 340px;
+text-align: center;
+line-height:2em;}
+
+.about .item{float:left;
+width: 25%;}
+
+.about .item i{color: white;
+background-color: #ae9768 ;
+padding: 30px;
+border-radius: 50%;
+border: none;
+font-size: 30px;
+}
+
+.about h5{ color: #ae9768;
+font-size: 17px;
+font-weight: 500;
+line-height: 2.98em;
+}
+
+
+.about .pp{font-size:14px;
+    width: 70%;
+    color: #888;
+    text-align: center;
+    line-height: 1.86em;
+    font-family: 'Open Sans', sans-serif;
+margin-left: 40px;   }
+
+
+.services{background: #f8f8f8;
+overflow: hidden;    }
+
+
+.services .left{float: left;
+    width: 40%;
+padding: 66px;
+margin-left: 100px;
+padding-left: 50px;
+}
+
+.services .right{
+    float: right;
+    width: 44%;
+    margin-top:100px;
+margin-left: 19px;
+}
+
+.right img{
+height: 500px;}
+
+.left h2{ 
+    margin-bottom: .88em;
+    color: #ae9768;
+    font-weight: 400;
+font-size: 35px;}
+
+.left p{font-size: 15.5px;
+    width: 97%;
+    color:rgb(104, 104, 104);
+    line-height: 1.86em;
+    font-family: 'Open Sans', sans-serif;
+font-weight:599.99;
+margin-bottom: 2em; 
+  }
+  .left .item p{margin-left: 0em;
+    font-size: 15px;
+width: 97%;
+color:rgb(104, 104, 104);
+font-weight: 400;
+
+
+}
+
+.items{overflow: hidden;
+margin-top: 40px;}
+
+.items .item{float: left;
+width: 45%;
+margin-right: .5em;}
+
+.services h5{color: #ae9768;
+    font-size: 18.5px;
+    line-height: 1.38em;
+    font-weight: 260;
+    margin-bottom: 1em;
+}
+
+
+.gallery{background-image: url('../img/barber-2.jpg');
+    background-size: cover;
+text-align: center;
+height: 600px;
+color: white;
+}
+
+.overlay1{
+    position: relative;
+    height:600px;
+    background-color: rgba(0,0,0, .5);}
+
+    .gallery .i1{margin-top: 3em;
+        margin-bottom: 1em;
+   font-size: 36px;}
+
+   .gallery h3{font-size: 30px;
+    font-family: "Lora";
+font-weight: 400;
+margin-bottom: 1em;}
+
+
+.gallery p{ line-height: 1.86em;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 197px;
+font-weight:599.99;
+font-size: 25px;
+width: 70%;}
+
+.gallery .auther{font-family: 'Open Sans',arial;
+    font-weight: 400;
+font-size: medium;
+margin-top: 3.8em;}
+
+.gallery .position{font-size: 1em;
+    margin-top: 2px;
+    opacity: .7;
+   }
+
+
+    .gallery .i2, .gallery .i3{border-radius: 60%;
+    padding: 8px;    
+    border: solid 1px  ;
+    border-color: rgba(255,255,255,.7);
+    margin-top: 3.4em;
+    margin-right: .1em;
+    }
+
+    .gallery .i2:hover,.gallery .i3:hover{background-color: white;
+    color: black;}
+
+
+    .blog h3{    color: #ae9768;
+    text-align: center;
+    font-family: "Lora";
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+
+.blog  .p{font-size: 19px;
+    color: #888;
+   text-align: center;
+margin-bottom: 2.5em;
+margin-left: 2em;}
+
+.item-group{overflow: hidden;    }
+
+.item-group .item{float: left;
+width:20%;
+margin-left: 10em;
+margin-bottom: 4em;
+}
+
+.item span i { color: #686868;
+font-size: 28px;
+font-weight: 505;
+padding: 10px;
+}
+
+.item h5{color: #ae9768;
+    font-size: 19px;
+font-weight: 300;}
+
+.item .i1, .item .i2{font-weight: 100;}
+.item p{font-size: 16px;
+    color: #888;
+margin-top: 1em;
+margin-left: 3.8em;
+width: 99%;}
+
+
+.contact{overflow: hidden;
+    background: #f8f8f8;
+    height: 450px;
+    padding: 5em;}
+
+
+.contact .left{
+float:left ;
+width: 50%;
+
+}
+
+
+.contact .right{ 
+    float: right;
+width: 50%;
+}
+
+.contact .left h2{margin-left: 90px;
+    font-size: 36px;
+font-weight: 400;
+font-family: "Alegreya";
+}
+
+.contact .left p{line-height: 1.86em;
+    margin-left: 90px;
+    font-size: 16px;
+    font-family: 'Open Sans',arial;
+    font-weight: 500;
+    color: #686868;
+   width: 87%;
+margin-top: 50px;}
+
+
+
+.contact  .left ul li{line-height: 3.3em;
+color: #253048;}
+
+.left span {
+    margin-left: .88em;
+    font-family: 'Open Sans',arial;
+    font-weight: 550;
+    color: #686868;
+}
+
+.left li i{
+    margin-left: 90px;
+    background-color:#c1ab84;
+color: #fff;
+padding: 11px;
+border-radius: 50%;
+
+}
+
+
+
+.footer{overflow: hidden;
+    background-color: #403d38;
+    
+    color: #969696;
+    padding: 80px;
+    height: 320px;
+    }
+    
+    .footer .items{float: left;
+    width: 25%;}
+    
+    .footer h3{font-size: 20px;
+    color: white;
+    font-weight: 200;
+    padding-bottom: 1.4em;}
+    
+    .footer p{width: 90%;
+    line-height:1.86em;
+    font-size: 16px;
+    font-family: 'Open Sans',arial;}
+    
+    .footer ul li{border-bottom: 1px solid rgba(255,255,255,0.05);
+    line-height: 3em;
+    width: 84%;}
+    
+    
+    .footer2{
+        text-align: center;
+    color: #969696;
+    height: 340px;
+    background-color: #353330;
+    line-height: 3em;}
+    
+    .footer2 img{margin-top: 4em;}
+    .footer2 i{color: #969696;
+        background-color: #403d38;
+    padding: 20px;
+    border-radius: 50%;
+font-size: 25px;}
+
+.footer2 p{margin-bottom: 2em;}
